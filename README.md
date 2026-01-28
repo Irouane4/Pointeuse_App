@@ -30,14 +30,3 @@
 *   `/ZKTeco.SyncService`: Background worker for device communication.
 *   `/HikvisionSDK`: Wrapper libraries for Hikvision device support.
 *   `/Database`: SQL scripts and stored procedures (e.g., `sp_ProcessDailyAttendance`).
-
-## Getting Started
-1.  **Database Setup**:
-    *   Ensure SQL Server is running.
-    *   Execute scripts in `/Database` to create `BioForceDB` schema and stored procedures.
-    *   Update connecting string in `DatabaseConfig.cs` or `appsettings.json`.
-2.  **SDK Dependency**:
-    *   Ensure `zfemkeeper.dll` and `HCNetSDK` DLLs are present in the output directory or system path.
-3.  **Run**:
-    *   Open `Pointeuse_App.slnx` in Visual Studio 2022.
-    *   Build and run `Pointeuse_App` (Windows Machine).
