@@ -24,7 +24,6 @@
 *   **Backend**: SQL Server (`BioForceDB`) with direct `SqlClient` access.
 *   **Language**: C# 10+.
 *   **Architecture**: MVVM (Model-View-ViewModel) using `CommunityToolkit.Mvvm`.
-![IMG_20260127_114104](https://github.com/user-attachments/assets/c7068be2-22ef-4128-8425-e28b375c1e98)
 
 ## Project Structure
 *   `/Pointeuse_App`: Main MAUI application (UI, ViewModels, Repositories).
